@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+
+
+}
+
+.content{
+    width: 500px;
+    border: 1px solid hsla(216, 29%, 10%, 0.151);
+    margin: 50px 0 20px 0;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    /* background-color:  hsla(218, 52%, 9%, 0.388); */
+    background-color:  hsla(216, 29%, 10%, 0.151);
+    
+
+
+}
+
+.content .content-box{
+    width: 300px;
+    margin: 30px 0;
+    padding: 2rem;
+    border: 1px solid hsl(216, 50%, 16%);
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: -10px 35px 10px hsla(218, 52%, 9%, 0.388), 10px 35px 10px hsla(218, 52%, 9%, 0.388);
+
+}
+
+.content .content-box .box-image{
+    
+    background-image: url('images/image-equilibrium.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;;
+    /* margin-top:30px ; */
+    border: 1px solid hsl(216, 50%, 16%);
+    border-radius: 10px;
+}   
+
+.content .content-box h3{
+    color:  hsl(0, 0%, 100%);
+    font-weight: 600;
+    
+}
+
+.content .content-box p{
+    color:hsl(215, 33%, 58%);
+    font-weight: 400;
+}
+
+.content .content-box .number-box .left,.content .content-box .number-box .right{
+
+    display: flex;
+    align-items: center;
+}
+
+.content .content-box .number-box{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.content .content-box .number-box span{
+
+   margin-left: 5px;
+}
+
+.content .content-box .author-box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.content .content-box .author-box img{
+    margin-right: 20px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
+
+
+
+hr{
+    border: none;
+    border: 1px solid hsl(215, 32%, 27%);
+    outline: none;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } 
